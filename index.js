@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const Datastore = require('nedb');
 const fetch = require('node-fetch');
-require('dotenv').config();
+require('dotenv').config()
 
 app.listen(3000, ()=>console.log('listening to port 3000'));
 app.use(express.static('public'));
